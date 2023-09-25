@@ -5,10 +5,10 @@ import json
 from spotipy.oauth2 import SpotifyOAuth
 
 
-CLIENT_ID = '25cec69e562f4f2caf965b3ae70fbffb'
-CLIENT_SECRET = 'd75654292ca849dd968bdffb6a987df7'
+CLIENT_ID = 'YOUR_ID'
+CLIENT_SECRET = 'YOUR_CLIENT_SECRET'
 scope = 'playlist-modify-public'
-username = '11150934797'
+username = 'YOUR_USERNAME'
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
                                                client_secret=CLIENT_SECRET,
