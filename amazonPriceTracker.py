@@ -37,9 +37,9 @@ print(f"\nIs the product's current price under the discount ${price_target} "
 
 if deal:
     print(f'\nEmail sent...')
-    email_sender = 'ISS.notifier.andrea@gmail.com'
-    sender_psw = 'jgbmoatatlpdrmpq'
-    email_receiver = 'andreamusic.bergantin@gmail.com'
+    email_sender = 'SENDER_EMAIL'
+    sender_psw = 'SENDER_PSW'
+    email_receiver = 'RECEIVER_EMAIL'
 
     subject = 'Amazon product to buy!'
 
